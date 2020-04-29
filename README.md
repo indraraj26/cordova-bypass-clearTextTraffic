@@ -24,3 +24,5 @@ Step 4: In package.json add below script
 
 
 Step 4: Execute npm run clearTextTraffic in terminal
+
+Feel free to report if this does not work
