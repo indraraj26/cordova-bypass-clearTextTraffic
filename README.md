@@ -1,6 +1,6 @@
 # cordova-bypass-clearTextTraffic
 
-Step 1: You should add below code in your config.xml if it is not there under platform android.
+Step 1: You should add below code in your `config.xml` if it is not there under platform android.
 ```
   <platform name="android">
         <edit-config file="app/src/main/AndroidManifest.xml" mode="merge" target="/manifest/application" xmlns:android="http://schemas.android.com/apk/res/android">
@@ -10,11 +10,11 @@ Step 1: You should add below code in your config.xml if it is not there under pl
         </platform>
 ```
 
-Step 2: copy create_network_config.js file to your project directory where is your package.json
+Step 2: copy `create_network_config.js` file to your project directory where is your package.json
 
-Step 3: Open create_network_config.js file and change domain name.
+Step 3: Open `create_network_config.js` file and change domain name.
 
-Step 4: In package.json add below script
+Step 4: In `package.json` add below script
 ```
   "scripts": {
     "clearTextTraffic": "node create_network_config"
